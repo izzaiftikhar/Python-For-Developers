@@ -1,1 +1,250 @@
+# Day 5 - Strings and String Methods
 
+
+# -----------------------------------------
+# 1. Creating strings
+# -----------------------------------------
+# A string is text written inside quotation marks.
+
+first_name = "Izza"
+last_name = "Ali"
+
+print(first_name)
+print(last_name)
+
+
+# -----------------------------------------
+# 2. Combining strings
+# -----------------------------------------
+# We can combine strings using the + operator.
+# Here, " " adds a space between the names.
+
+full_name = first_name + " " + last_name
+
+print(full_name)
+
+
+# -----------------------------------------
+# 3. Finding the length of a string
+# -----------------------------------------
+# len() returns the number of characters
+# in a string.
+#
+# Spaces are also counted.
+
+print("Length of first name:", len(first_name))
+print("Length of last name:", len(last_name))
+print("Length of full name:", len(full_name))
+
+
+# -----------------------------------------
+# 4. Accessing characters using indexing
+# -----------------------------------------
+# Each character in a string has a position.
+# Python starts counting from 0.
+#
+# P  y  t  h  o  n
+# 0  1  2  3  4  5
+
+language = "Python"
+
+print(language[0])
+print(language[1])
+print(language[2])
+
+# Negative indexing starts from the end.
+# -1 means the last character.
+
+print(language[-1])
+
+
+# -----------------------------------------
+# 5. More indexing practice
+# -----------------------------------------
+
+print("First character:", language[0])
+print("Last character:", language[-1])
+print("Second character:", language[1])
+print("Second-last character:", language[-2])
+
+
+# -----------------------------------------
+# 6. Converting strings to uppercase and lowercase
+# -----------------------------------------
+# upper() converts all letters to uppercase.
+# lower() converts all letters to lowercase.
+
+print(language.upper())
+print(language.lower())
+
+
+# -----------------------------------------
+# 7. Checking if a string starts or ends
+#    with specific text
+# -----------------------------------------
+# startswith() checks the beginning of a string.
+# endswith() checks the end of a string.
+#
+# Both methods return True or False.
+
+print(language.startswith("Py"))
+print(language.endswith("on"))
+
+print(language.startswith("Java"))
+print(language.endswith("ing"))
+
+
+# -----------------------------------------
+# 8. Using format() to create formatted text
+# -----------------------------------------
+# format() allows us to insert variable values
+# into a string.
+
+first_name = "Izza"
+last_name = "Ali"
+age = 19
+language = "Python"
+
+formatted_string = "I am {} {}. I am {} years old. I am learning {}.".format(
+    first_name, last_name, age, language
+)
+
+print(formatted_string)
+
+
+# -----------------------------------------
+# 9. Finding the first occurrence with index()
+# -----------------------------------------
+# index() returns the position of the first
+# occurrence of the specified character or text.
+
+text_1 = "Python Programming"
+
+print(text_1.index("g"))
+
+
+# -----------------------------------------
+# 10. Finding the last occurrence with rindex()
+# -----------------------------------------
+# rindex() searches from the right side
+# and returns the position of the last occurrence.
+
+print(text_1.rindex("a"))
+
+
+# -----------------------------------------
+# 11. Finding other characters in a string
+# -----------------------------------------
+
+print(text_1.index("P"))
+print(text_1.index("o"))
+
+
+# -----------------------------------------
+# 12. Practicing index() with words
+# -----------------------------------------
+
+word = "Programming"
+
+print("Position of P:", word.index("P"))
+print("Position of m:", word.index("m"))
+
+
+# -----------------------------------------
+# 13. Checking if a string contains only
+#     decimal characters
+# -----------------------------------------
+# isdecimal() returns True if all characters
+# in the string are decimal characters.
+
+text_2 = "Phase_1_of_python_programming"
+
+print(text_2.isdecimal())
+
+
+# -----------------------------------------
+# 14. Checking if a string contains
+#     numeric characters
+# -----------------------------------------
+# isnumeric() checks whether all characters
+# in the string are numeric.
+
+print(text_2.isnumeric())
+
+
+# -----------------------------------------
+# 15. Checking if a string is a valid
+#     Python identifier
+# -----------------------------------------
+# isidentifier() checks whether the entire
+# string can be used as a Python variable name.
+#
+# A valid identifier can contain:
+# letters
+# numbers (but not at the beginning)
+# underscores
+#
+# It cannot contain spaces or other symbols.
+
+print(text_2.isidentifier())
+
+
+# -----------------------------------------
+# 16. Testing string methods with numbers
+# -----------------------------------------
+
+number_text = "12345"
+
+print("Decimal:", number_text.isdecimal())
+print("Numeric:", number_text.isnumeric())
+print("Identifier:", number_text.isidentifier())
+
+
+# -----------------------------------------
+# 17. Testing string methods with words
+# -----------------------------------------
+
+word_text = "Python"
+
+print("Decimal:", word_text.isdecimal())
+print("Numeric:", word_text.isnumeric())
+print("Identifier:", word_text.isidentifier())
+
+
+# -----------------------------------------
+# 18. Testing a valid identifier
+# -----------------------------------------
+# Letters and underscores can be used in
+# a valid Python identifier.
+
+variable_name = "python_programming"
+
+print("Is valid identifier:", variable_name.isidentifier())
+
+
+# -----------------------------------------
+# 19. Testing an invalid identifier
+# -----------------------------------------
+# Spaces are not allowed in Python identifiers.
+
+invalid_variable_name = "python programming"
+
+print("Is valid identifier:", invalid_variable_name.isidentifier())
+
+
+# -----------------------------------------
+# 20. Simple string practice
+# -----------------------------------------
+
+favorite_language = "Python"
+
+print("Language:", favorite_language)
+print("Uppercase:", favorite_language.upper())
+print("Lowercase:", favorite_language.lower())
+print("Length:", len(favorite_language))
+print("Starts with Py:", favorite_language.startswith("Py"))
+print("Ends with on:", favorite_language.endswith("on"))
+
+# ==========================================
+# DAY 5 COMPLETE
+# ==========================================
