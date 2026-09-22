@@ -1,1 +1,167 @@
+# Day 3 - Booleans, Comparison and Membership Operators
 
+
+# -----------------------------------------
+# 1. Boolean values
+# -----------------------------------------
+# A Boolean is a value that can only be:
+# True or False
+
+print(True)
+print(False)
+
+
+# -----------------------------------------
+# 2. Boolean values stored in variables
+# -----------------------------------------
+# We can also store True or False in variables.
+
+is_learning = True
+is_sleeping = False
+
+print("Is learning:", is_learning)
+print("Is sleeping:", is_sleeping)
+
+
+# -----------------------------------------
+# 3. Comparing True and False
+# -----------------------------------------
+# == checks whether two values are equal.
+
+print(True == True)
+print(True == False)
+print(False == True)
+print(False == False)
+
+
+# -----------------------------------------
+# 4. Printing comparisons with messages
+# -----------------------------------------
+# Comparisons always produce a Boolean result:
+# True or False.
+
+print("True == True:", True == True)
+print("True == False:", True == False)
+print("False == True:", False == True)
+print("False == False:", False == False)
+
+
+# -----------------------------------------
+# 5. Comparing numbers
+# -----------------------------------------
+# Comparison operators:
+#
+# ==  Equal to
+# !=  Not equal to
+# >   Greater than
+# <   Less than
+# >=  Greater than or equal to
+# <=  Less than or equal to
+
+print("5 == 5:", 5 == 5)
+print("5 == 3:", 5 == 3)
+
+print("5 != 3:", 5 != 3)
+
+print("5 > 3:", 5 > 3)
+print("5 < 3:", 5 < 3)
+
+print("5 >= 5:", 5 >= 5)
+print("3 <= 5:", 3 <= 5)
+
+
+# -----------------------------------------
+# 6. Simple comparison exercises
+# -----------------------------------------
+# Let's compare some other numbers.
+
+number1 = 10
+number2 = 20
+
+print("number1 == number2:", number1 == number2)
+print("number1 != number2:", number1 != number2)
+print("number1 < number2:", number1 < number2)
+print("number1 > number2:", number1 > number2)
+
+
+# -----------------------------------------
+# 7. Comparing strings
+# -----------------------------------------
+# Strings can also be compared.
+# Python treats uppercase and lowercase letters
+# as different.
+
+print("Python == Python:", "Python" == "Python")
+print("Python == python:", "Python" == "python")
+print("Python != Java:", "Python" != "Java")
+
+
+# -----------------------------------------
+# 8. Storing comparison results in variables
+# -----------------------------------------
+# The result of a comparison can be stored
+# in a Boolean variable.
+
+age = 20
+
+is_adult = age >= 18
+is_teenager = age < 18
+
+print("Is adult:", is_adult)
+print("Is teenager:", is_teenager)
+
+
+# -----------------------------------------
+# 9. Membership operator - in
+# -----------------------------------------
+# The 'in' operator checks whether a value
+# exists inside a string or collection.
+#
+# The result is True or False.
+
+print("A" in "Ayesha")
+print("F" in "Ayesha")
+print("coding" in "coding for all")
+print("s" in "Ayesha")
+
+
+# -----------------------------------------
+# 10. Membership operator - not in
+# -----------------------------------------
+# 'not in' checks whether a value does NOT
+# exist inside a string or collection.
+
+print("Python" not in "I am learning Python")
+print("Java" not in "I am learning Python")
+
+
+# -----------------------------------------
+# 11. Membership operators with messages
+# -----------------------------------------
+
+print("A in Ayesha:", "A" in "Ayesha")
+print("F in Ayesha:", "F" in "Ayesha")
+print("coding in coding for all:", "coding" in "coding for all")
+print("s in Ayesha:", "s" in "Ayesha")
+
+
+# -----------------------------------------
+# 12. Comparison and membership together
+# -----------------------------------------
+# These are comparison operators:
+# == and !=
+#
+# These are membership operators:
+# in and not in
+
+print("1 == 1:", 1 == 1)
+print("1 != 2:", 1 != 2)
+
+print("Python in sentence:", "Python" in "I am learning Python")
+print("Java in sentence:", "Java" in "I am learning Python")
+
+print("Java not in sentence:", "Java" not in "I am learning Python")
+
+# ==========================================
+# DAY 3 COMPLETE
+# ==========================================
