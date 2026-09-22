@@ -1,1 +1,162 @@
+# Day 1 - Python Basics
 
+
+# -----------------------------------------
+# 1. Printing simple messages
+# -----------------------------------------
+# print() is used to display information in the console.
+
+print("Hello, World!")
+print("I am learning Python.")
+print("This is my first day of Python.")
+
+
+# -----------------------------------------
+# 2. Printing numbers
+# -----------------------------------------
+# Python can also print numbers directly.
+# Numbers do not need quotation marks.
+
+print(10)
+print(25)
+print(100)
+
+
+# -----------------------------------------
+# 3. Basic arithmetic
+# -----------------------------------------
+# Python can perform basic mathematical operations.
+#
+# +  Addition
+# -  Subtraction
+# *  Multiplication
+# /  Division
+
+print(5 + 3)
+print(10 - 4)
+print(6 * 2)
+print(20 / 5)
+
+
+# -----------------------------------------
+# 4. Using variables
+# -----------------------------------------
+# A variable is a name used to store a value.
+# Here, name stores a string and age stores a number.
+
+name = "Izza"
+age = 20
+
+print(name)
+print(age)
+
+
+# -----------------------------------------
+# 5. Different types of values
+# -----------------------------------------
+# Python has different types of data.
+#
+# "Izza" -> string (str)
+# 20     -> integer (int)
+# 5.4    -> floating-point number (float)
+# True   -> boolean (bool)
+
+first_name = "Izza"
+age = 20
+height = 5.4
+is_learning_python = True
+
+print(first_name)
+print(age)
+print(height)
+print(is_learning_python)
+
+
+# -----------------------------------------
+# 6. Adding numbers using variables
+# -----------------------------------------
+# Variables can be used in mathematical operations.
+
+number1 = 10
+number2 = 5
+
+print(number1 + number2)
+print(number1 - number2)
+print(number1 * number2)
+print(number1 / number2)
+
+
+# -----------------------------------------
+# 7. Combining text and variables
+# -----------------------------------------
+# Multiple values can be printed together by separating
+# them with commas.
+
+first_name = "Izza"
+last_name = "Ali"
+
+print(first_name, last_name)
+
+
+# -----------------------------------------
+# 8. Finding the length of a string
+# -----------------------------------------
+# len() returns the number of characters in a string.
+# Spaces are also counted as characters.
+
+print(len(first_name), first_name)
+print(len(last_name), last_name)
+
+
+# We can also compare the lengths of two strings.
+# The result will be True or False.
+
+print(len(first_name) > len(last_name))
+
+
+# -----------------------------------------
+# 9. Calculating the area and circumference of a circle
+# -----------------------------------------
+# We can use variables and mathematical formulas
+# to solve simple real-world problems.
+
+pi = 3.14
+radius = 10
+
+# Area of a circle = pi * radius * radius
+
+area_of_circle = pi * radius * radius
+
+print("Area of circle:", area_of_circle)
+
+
+# Circumference of a circle = 2 * pi * radius
+
+circumference_of_circle = 2 * pi * radius
+
+print("Circumference of circle:", circumference_of_circle)
+
+
+# -----------------------------------------
+# 10. Calculating the area and perimeter of a rectangle
+# -----------------------------------------
+
+length = 3
+width = 4
+
+# Area of a rectangle = length * width
+
+area_of_rectangle = length * width
+
+print("Area of rectangle:", area_of_rectangle)
+
+
+# Perimeter of a rectangle = 2 * (length + width)
+
+perimeter_of_rectangle = 2 * (length + width)
+
+print("Perimeter of rectangle:", perimeter_of_rectangle)
+
+# ==========================================
+# DAY 1 COMPLETE
+# ==========================================
