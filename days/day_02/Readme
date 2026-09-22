@@ -1,1 +1,189 @@
+# Day 2 - Variables and Operators
 
+
+# -----------------------------------------
+# 1. Creating simple variables
+# -----------------------------------------
+# A variable stores a value so we can use it later.
+#
+# Here:
+# name stores a string
+# age stores an integer
+
+name = "Izza"
+age = 20
+
+print(name)
+print(age)
+
+
+# -----------------------------------------
+# 2. Changing the value of a variable
+# -----------------------------------------
+# A variable's value can be changed.
+# The new value replaces the old value.
+
+age = 21
+
+print(age)
+
+
+# -----------------------------------------
+# 3. Assigning values to multiple variables
+# -----------------------------------------
+# Python allows us to assign values to multiple
+# variables in one line.
+
+x, y, z = 10, 20, 30
+
+print(x)
+print(y)
+print(z)
+
+
+# -----------------------------------------
+# 4. Basic arithmetic operators
+# -----------------------------------------
+# Python can perform mathematical operations
+# using operators.
+#
+# +  Addition
+# -  Subtraction
+# *  Multiplication
+# /  Division
+
+a = 5
+b = 3
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+
+# -----------------------------------------
+# 5. Declaring variables before calculations
+# -----------------------------------------
+# We can store the result of an operation
+# in another variable.
+
+a = 2
+b = 3
+
+total = a + b
+difference = a - b
+product = a * b
+division = a / b
+exponentiation = a ** b
+modulus = a % b
+floor_division = a // b
+
+print("a + b:", total)
+print("a - b:", difference)
+print("a * b:", product)
+print("a / b:", division)
+print("a ** b:", exponentiation)
+print("a % b:", modulus)
+print("a // b:", floor_division)
+
+
+# -----------------------------------------
+# 6. Understanding the arithmetic operators
+# -----------------------------------------
+
+# Addition (+)
+# Adds two values together.
+
+print(5 + 2)
+
+
+# Subtraction (-)
+# Finds the difference between two values.
+
+print(5 - 2)
+
+
+# Multiplication (*)
+# Multiplies two values.
+
+print(5 * 2)
+
+
+# Division (/)
+# Divides one number by another.
+# Regular division returns a float.
+
+print(5 / 2)
+
+
+# Exponentiation (**)
+# Raises the first number to the power of the second number.
+# 2 ** 3 means 2 × 2 × 2.
+
+print(2 ** 3)
+
+
+# Modulus (%)
+# Gives the remainder after division.
+# 7 divided by 3 leaves a remainder of 1.
+
+print(7 % 3)
+
+
+# Floor division (//)
+# Divides two numbers and removes the decimal part
+# by rounding down to the nearest whole number.
+
+print(7 // 3)
+
+
+# -----------------------------------------
+# 7. Using different numbers
+# -----------------------------------------
+# The same operators can be used with different values.
+
+number1 = 15
+number2 = 4
+
+print("Addition:", number1 + number2)
+print("Subtraction:", number1 - number2)
+print("Multiplication:", number1 * number2)
+print("Division:", number1 / number2)
+print("Exponentiation:", number1 ** number2)
+print("Modulus:", number1 % number2)
+print("Floor division:", number1 // number2)
+
+
+# -----------------------------------------
+# 8. A practical example - total price
+# -----------------------------------------
+# Operators can be used in real-world calculations.
+#
+# If one item costs 500 and we buy 3 items,
+# we can calculate the total using multiplication.
+
+price = 500
+quantity = 3
+
+total_price = price * quantity
+
+print("Total price:", total_price)
+
+
+# -----------------------------------------
+# 9. Calculating an average
+# -----------------------------------------
+# An average is calculated by adding the values
+# and dividing the total by the number of values.
+
+number1 = 10
+number2 = 20
+number3 = 30
+
+average = (number1 + number2 + number3) / 3
+
+print("Average:", average)
+
+# ==========================================
+# DAY 2 COMPLETE
+# ==========================================
