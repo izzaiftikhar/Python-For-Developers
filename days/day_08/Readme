@@ -1,1 +1,36 @@
+# Day 8 - Python Tuples
 
+A beginner-friendly Python practice project focused on creating, accessing, slicing, and working with tuples.
+
+## Topics Covered
+
+- Creating empty and multi-item tuples
+- Tuples with different data types and checking type using `type()`
+- Finding tuple length using `len()`
+- Accessing items with indexing and negative indexing
+- Slicing tuples using positive and negative indexes
+- Checking items using `in` and `not in`
+- Joining tuples using `+`
+- Understanding immutability and why tuples cannot be changed directly
+- Converting tuples into lists using `list()` to modify data
+- Unpacking tuples using `*`
+- Deleting a tuple using `del`
+- Practice exercises with siblings, food items, and Nordic countries
+
+## Technologies Used
+
+- Python 3
+
+## How to Run
+
+```bash
+python day8.py
+```
+
+## Learning Outcome
+
+Practiced working with immutable ordered data using tuples and learned how to access, slice, join, unpack, and convert them into lists.
+
+---
+
+Built while learning Python.
