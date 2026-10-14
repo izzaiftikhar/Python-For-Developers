@@ -1,1 +1,35 @@
+# Day 9 - Python Sets
 
+A beginner-friendly Python practice project focused on creating, updating, and performing operations on sets.
+
+## Topics Covered
+
+- Creating empty and multi-item sets using `set()` and `{}`
+- Finding set length using `len()`
+- Checking items using `in` and `not in`
+- Adding items with `add()` and `update()`
+- Removing items with `remove()`, `discard()`, `pop()`, `clear()`, and `del`
+- Converting lists into sets to remove duplicates
+- Joining sets using `union()` and `update()`
+- Finding `intersection()`, `difference()`, and `symmetric_difference()`
+- Checking relationships with `issubset()`, `issuperset()`, and `isdisjoint()`
+- Comparing strings, lists, tuples, and sets
+- Finding unique words in a sentence using `split()` and `set()`
+
+## Technologies Used
+
+- Python 3
+
+## How to Run
+
+```bash
+python day9.py
+```
+
+## Learning Outcome
+
+Practiced managing unique, unordered data using sets and learned how to add, remove, compare, and combine them using set operations.
+
+---
+
+Built while learning Python.
