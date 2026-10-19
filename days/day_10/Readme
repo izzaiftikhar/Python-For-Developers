@@ -1,1 +1,34 @@
+# Day 10 - Python Conditionals
 
+A beginner-friendly Python practice project focused on making decisions using conditional statements.
+
+## Topics Covered
+
+- `if`, `else`, and `elif` statements
+- Shorthand and nested conditions
+- Logical operators: `and`, `or`, and `not`
+- Comparison and membership operators
+- Checking positive, negative, and zero values
+- Checking even and odd numbers
+- Comparing numbers and ages
+- Grading systems and season detection
+- Using conditionals with lists, tuples, and dictionaries
+- Simple login validation and user input
+
+## Technologies Used
+
+- Python 3
+
+## How to Run
+
+```bash
+python day10.py
+```
+
+## Learning Outcome
+
+Practiced writing conditional logic to make decisions, validate input, compare values, and solve simple real-world problems.
+
+---
+
+Built while learning Python.
