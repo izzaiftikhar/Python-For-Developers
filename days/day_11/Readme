@@ -1,1 +1,31 @@
+# Day 11 - Lists, Tuples and Sets
 
+A beginner-friendly Python practice project focused on working with collections of data.
+
+## Topics Covered
+
+- Creating and accessing lists, tuples, and sets
+- Indexing, slicing, and unpacking
+- Adding, updating, and removing items
+- Sorting, copying, and joining lists
+- Tuple operations and conversions
+- Set operations: union, intersection, and difference
+- Checking membership and unique values
+
+## Technologies Used
+
+- Python 3
+
+## How to Run
+
+```bash
+python day11.py
+```
+
+## Learning Outcome
+
+Practiced managing collections, manipulating data, and understanding the differences between lists, tuples, and sets.
+
+---
+
+Built while learning Python.
